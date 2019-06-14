@@ -89,6 +89,7 @@ log_warnings                            = {{ getenv "MYSQL_LOG_WARNINGS" "2" }}
 net_write_timeout                       = {{ getenv "MYSQL_NET_WRITE_TIMEOUT" "90" }}
 net_read_timeout                        = {{ getenv "MYSQL_NET_READ_TIMEOUT" "90" }}
 wait_timeout                            = {{ getenv "MYSQL_WAIT_TIMEOUT" "420" }}
+connect_timeout                         = {{ getenv "MYSQL_CONNECT_TIMEOUT" "420" }}
 interactive_timeout                     = {{ getenv "MYSQL_INTERACTIVE_TIMEOUT" "420" }}
 
 relay_log_recovery                      = {{ getenv "MYSQL_RELAY_LOG_RECOVERY" "0" }}
